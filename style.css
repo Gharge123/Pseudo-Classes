@@ -1,0 +1,13 @@
+*{
+    background-color: brown;
+    color: rgb(197, 247, 197);
+    border: 1px solid rgb(145, 235, 190);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 4px;
+   
+}
