@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+            .grid-container{
+                display: grid;
+                background-color: rgb(175, 245, 245);
+                padding: 20px;
+                gap: 25px;
+            }
+            .grid-item{
+                border: 1 px solid black;
+                text-align: center;
+                padding: 20px;
+                font-size: 20px;
+            }
+            .item1{
+                grid-row: 1;
+                grid-column: 1/span 3;
+                background-color: aqua;
+            }
+            .item2{
+                grid-row: 2/span 2;
+                background-color: rgb(90, 90, 247);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+             }
+             .item3{
+                grid-row: span 1;
+                background-color: red;
+             }
+             .item4{
+                grid-row: span 1;
+                background-color: greenyellow;
+             }
+             .item5{
+                grid-column: span 2;
+                background-color: rgb(162, 162, 226);
+             }
+             .item6{
+                grid-column: span 3;
+                grid-row: 4;
+                background-color: rgb(238, 195, 116);
+             }
+
+        </style>
+    </head>
+    <body>
+       <div class="grid-container">
+        <div class="grid-item item1">Header</div>
+        <div class="grid-item item2">Menu</div>
+        <div class="grid-item item3">Left</div>
+        <div class="grid-item item4">Main</div>
+        <div class="grid-item item5">Right</div>
+        <div class="grid-item item6">Footer</div>
+       </div>
+    </body>
+</html>
