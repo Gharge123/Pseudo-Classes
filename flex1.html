@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            .flex-container{
+                background-color: blueviolet;
+                display: grid;
+                gap: 40px;
+                padding: 20px;
+                grid-template-columns: 2fr 2fr 2fr;
+            }
+            .flex-item{
+                border: 1 px solid black;
+                text-align: center;
+                padding: 20px;
+                background-color: brown;
+            }
+            .item1{background-color: rgb(48, 141, 29);}
+            .item2{background-color: rgb(16, 133, 133);}
+            .item3{background-color: rgb(206, 57, 31);}
+            .item4{background-color: rgb(70, 70, 189);}
+            .item5{background-color: rgb(206, 37, 37);}
+            .item6{background-color: rgb(141, 230, 52);}
+
+
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="flex-item item1" style="flex: grow 5px;">1</div>
+            <div class="flex-item item2"  >2</div>
+            <div class="flex-item item3" style="flex-basis: 10px;">3</div>
+            <div class="flex-item item4">4</div>
+            <div class="flex-item item5">5</div>
+            <div class="flex-item item6">7</div>
+        </div>
+    </body>
+</html>
